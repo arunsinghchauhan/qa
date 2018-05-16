@@ -7,6 +7,7 @@ public class Reversestring {
 	
 	String arr[];
 	int i,j;
+	
 	void calculate()
 	{
 		

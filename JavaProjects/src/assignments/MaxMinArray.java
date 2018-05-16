@@ -26,7 +26,7 @@ public class MaxMinArray {
 	
 	public void getvalues() {
 		try
-		{
+		{System.out.println("Please enter the array number one by one");
 			for (int i = 0; i < n; i++) 
 		{
 			array[i] = read.nextInt();

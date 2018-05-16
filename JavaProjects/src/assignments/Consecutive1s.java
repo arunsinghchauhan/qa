@@ -3,7 +3,7 @@ package assignments;
 public class Consecutive1s {
 
 	
-	int[] arr={1,0,0,1,1,1,0,1,1,0,0,1,1,1,1,1,1,1};
+	int[] arr={1,0,0,1,1,1,0,1,1,0,0,1};
 	int temp=0,max=0;
 	
 	public void traversearr()
@@ -21,6 +21,7 @@ public class Consecutive1s {
 				if(temp>max)
 				{
 					max=temp;
+					System.out.println(max);
 				}
 				temp=0;
 				
